@@ -95,7 +95,7 @@ class HomeIndex extends React.Component {
                             <Link to="/venues" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Banquet-Hall-at-Shibravyi-Courtyard-12.jpg)`}}>
+                        <article style={{backgroundImage:`url()`}}>
                             <header className="major">
                                 <h3>Packages</h3>
                                 <p>4 | 8 Hour Rental Package Available</p>
@@ -104,7 +104,7 @@ class HomeIndex extends React.Component {
                             <Link to="/packages" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Banquet-Hall-at-Shibravyi-Courtyard-11.jpg)`}}>
+                        <article style={{backgroundImage:`url()`}}>
                             <header className="major">
                                 <h3>Capacity Info</h3>
                                 <p>Ilakiya has 2 halls which can accommodate from 50 to 300 Guests</p>
@@ -112,14 +112,14 @@ class HomeIndex extends React.Component {
                             <Link to="/capacity" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Banquet-Hall-at-Shibravyi-Courtyard-13.jpg`}}>
+                        <article style={{backgroundImage:`url(`}}>
                             <header className="major">
                                 <h3>Gallery</h3>
                                 <p>Images gallery</p>
                             </header>
                             <Link to="/images" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Banquet-Hall-at-Shibravyi-Courtyard-unspecified-15.jpeg`}}>
+                        <article style={{backgroundImage:`url(}}>
                             <header className="major">
                                 <h3>Recent Events</h3>
                                 <p>Weddings, Family Events, Parties</p>
