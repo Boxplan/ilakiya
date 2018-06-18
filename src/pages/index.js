@@ -30,15 +30,15 @@ class HomeIndex extends React.Component {
         {
             "@context": "http://schema.org",
             "@type": "LocalBusiness",
-            "@id": "http://",
+            "@id": "http://www.venueplan.com",
             "name": "Ilakiya Mini Party Hall",
-            "image": ["http://http://www.shibravyicourtyard.com/static/pic22.3739db65.jpg,http://www.shibravyicourtyard.com/static/pic31.bf1f841b.jpg,http://www.shibravyicourtyard.com/static/pic27.aace32c0.jpg,http://www.shibravyicourtyard.com/static/pic21.badd0ad4.jpg"],
+            "image": ["https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Ilakiya-Mini-20160626_083326.jpg"],
             "address": {
             "@type": "PostalAddress",
-                "streetAddress": " No. 107, BM Kaval, Kengeri Hobli, Thalagahttapura Post, Kanakpura Road, Kengeri, Bangalore",
-                "addressLocality": "Kanakapura Road",
-                "addressRegion": "Bangalore",
-                "postalCode": "560062",
+                "streetAddress": "No.1, Sarojini St, Postal Colony, Parthasarathi Puram, T Nagar, Chennai",
+                "addressLocality": "T Nagar",
+                "addressRegion": "Chennai",
+                "postalCode": "600017",
                 "addressCountry": "India"
         },
             "aggregateRating": {
@@ -47,20 +47,20 @@ class HomeIndex extends React.Component {
                 "bestRating": "5",
                 "reviewCount": " 48 "
         },
-            "priceRange": "Rs.125000 - Rs.305000",
+            "priceRange": "Rs.10000 - Rs.20000",
             "geo": {
             "@type": "GeoCoordinates",
-                "latitude": 12.867007,
-                "longitude": 77.517734
+                "latitude": 13.036613,
+                "longitude": 80.233776
         },
-            "url": "http://",
-            "telephone": " +914411111111",
+            "url": "http://www.venueplan.com",
+            "telephone": " +918123222322",
 
             "potentialAction": {
             "@type": "ReserveAction",
                 "target": {
                 "@type": "EntryPoint",
-                    "urlTemplate": "http://",
+                    "urlTemplate": "http://www.venueplan.com",
                     "inLanguage": "en-US",
                     "actionPlatform": "http://schema.org/DesktopWebPlatform"
 
@@ -78,7 +78,7 @@ class HomeIndex extends React.Component {
             <div>
                 <Helmet>
                     <title>Ilakiya Mini Party Hall</title>
-                    <meta name="description" content='Ilakiya Mini Party Hall is located at T.Nagar ' />
+                    <meta name="description" content='Ilakiya Mini Party Hall is located at T.Nagar, Chennai ' />
                     <script type="application/ld+json">
                         {JSON.stringify(schemaOrgJsonLd)}
                     </script>
@@ -95,7 +95,7 @@ class HomeIndex extends React.Component {
                             <Link to="/venues" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url()`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Ilakiya-Mini-20160626_083326.jpg)`}}>
                             <header className="major">
                                 <h3>Packages</h3>
                                 <p>4 | 8 Hour Rental Package Available</p>
@@ -104,32 +104,32 @@ class HomeIndex extends React.Component {
                             <Link to="/packages" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url()`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Ilakiya-Mini-20160626_083521.jpg)`}}>
                             <header className="major">
                                 <h3>Capacity Info</h3>
-                                <p>Ilakiya has 2 halls which can accommodate from 50 to 300 Guests</p>
+                                <p>Ilakiya Mini Party Hall has 2 halls which can accommodate from 100 to 300 Guests</p>
                             </header>
                             <Link to="/capacity" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url(`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Ilakiya-Mini-2014-01-2416.02.20.jpg`}}>
                             <header className="major">
                                 <h3>Gallery</h3>
                                 <p>Images gallery</p>
                             </header>
                             <Link to="/images" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage:`url(}}>
+                        <article style={{backgroundImage:`url(jpeg`}}>
                             <header className="major">
                                 <h3>Recent Events</h3>
-                                <p>Weddings, Family Events, Parties</p>
+                                <p>Birthday Parties, Family Events, Parties</p>
                             </header>
                             <Link to="/recent-events" className="link primary"></Link>
                         </article>
 
                         <article>
                             <header className="major">
-                                <h3>+91 80 11111111</h3>
+                                <h3>+91 44 11111111</h3>
                                 <p>Address | Location</p>
                             </header>
                             <Link to="/contact-us" className="link primary"></Link>

@@ -17,7 +17,7 @@ const Generic = (props) => (
                     <header className="major">
                         <h1>Ilakiya Mini Party Hall</h1>
                     </header>
-                    <p>Ilakiya Mini Party Hall</p>
+                    <p>To be implemented after going live</p>
 
                 </div>
             </section>
